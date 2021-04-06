@@ -13,8 +13,8 @@ versión 2.4
 ## Ejercicio
 Una vez instalado el gestor de base de datos, se restaurará la base de datos incluida en
 el envío, que contiene dos esquemas:
-• administracion: mantiene datos del usuario.
-• alcaudete_desarrollo_gissmart_energy: contiene los datos del proyecto, que incluyen
+- administracion: mantiene datos del usuario.
+- alcaudete_desarrollo_gissmart_energy: contiene los datos del proyecto, que incluyen
 varias capas (vial, centro mando, luminaria y módulo de medida).
 
 
