@@ -140,8 +140,8 @@ def update_vial_values(tables_update):
     """
     for table in tables_update:
         try:
-            cur.execute("""
-            UPDATE alcaudete_desarrollo_gissmart_energy.%s as a
+            cur.execute(f"""
+            UPDATE alcaudete_desarrollo_gissmart_energy.{table} as a
             SET  vial = (
                 SELECT b.id_vial 
                 FROM   alcaudete_desarrollo_gissmart_energy.base_vial as b
@@ -151,7 +151,6 @@ def update_vial_values(tables_update):
             )
             
             """ 
-            %(table)
             )
             conn.commit()
             print(f"Updated vial of : {table}")
