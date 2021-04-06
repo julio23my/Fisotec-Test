@@ -19,15 +19,16 @@ from datetime import datetime
 
 
 #Constans
+
 PASSWORD='prueba'
 USUARIO='prueba'
+#List of updated tables
 LIST_UPDATE_TABLE=['gestlighting_centro_mando','gestlighting_luminaria','gestlighting_modulo_medida']
 
 def _print_welcome():
     """
     Print the welcome functions
     """
-
     print('WELCOME TO TEST FISOTEC')
     print('*' * 50)
     print('What would you like to do today?:')
