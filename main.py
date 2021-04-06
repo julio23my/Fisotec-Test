@@ -39,7 +39,6 @@ def _print_welcome():
 
 
 def connect_defaultuser():
-
     """
     Connect to database using "usuario, clave" 
     columns and insert session.
@@ -56,7 +55,6 @@ def connect_defaultuser():
 
 
 def session_login(login):
-
     """
     Record session login into data base.
     login: record login to get user data
@@ -192,5 +190,6 @@ if __name__ == '__main__':
 
     try:
         session_logout()
+        
     except(Exception, psycopg2.Error) as error:
         print('Error codigo finalizado error ', error)
